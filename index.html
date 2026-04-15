@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <h1>Trade Journal</h1>
+  <div>
+    <span id="welcomeUser"></span>
+    <a href="addTrade.html">Add Trade</a>
+    <a href="viewTrades.html">Trades</a>
+    <a href="#" onclick="logout()">Logout</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h2>Dashboard</h2>
+
+```
+<div class="stats">
+  <div class="stat-box">
+    <h3>Total Trades</h3>
+    <p id="totalTrades"></p>
+  </div>  
+
+  <div class="stat-box">
+    <h3>Total Profit</h3>
+    <p id="totalProfit"></p>
+  </div>
+
+  <div class="stat-box">
+    <h3>Win Rate</h3>
+    <p id="winRate"></p>
+  </div>
+</div>
+```
+
+  </div>
+</div>
+
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

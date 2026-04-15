@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <title>Add Trade</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+  <h1>Trade Journal</h1>
+  <div>
+    <a href="index.html">Dashboard</a>
+    <a href="viewTrades.html">Trades</a>
+  </div>
+</div>
+
+<div class="container">
+  <div class="card">
+    <h2>Add Trade</h2>
+
+```
+<input type="text" id="stock" placeholder="Stock Name">
+
+<input type="number" id="buyPrice" placeholder="Buy Price">
+<input type="number" id="sellPrice" placeholder="Sell Price">
+
+<input type="number" id="qty" placeholder="Quantity">
+<input type="date" id="date">
+
+<select id="tag">
+  <option value="Good">Good Trade</option>
+  <option value="FOMO">FOMO</option>
+</select>
+
+<button onclick="addTrade()">Save Trade</button>
+```
+
+  </div>
+</div>
+
+<script src="js/addTrade.js"></script>
+
+</body>
+</html>
